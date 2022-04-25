@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Fragment.SecondFragment">
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/welcome" />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/datasource"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:text="Proceed" />
+
+</LinearLayout>
